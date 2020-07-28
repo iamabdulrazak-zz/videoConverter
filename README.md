@@ -18,7 +18,7 @@ This tool installs YouTube videos and converts those videos into mp3 audio.
   
   <tr>
     <td class="tg-yw4l">Moveipy</td>
-    <td class="tg-yw4l">How to use Matplotlib in Swift For TensorFlow.</td></td>
+    <td class="tg-yw4l">MoviePy (full documentation) is a Python library for video editing: cutting, concatenations, title insertions, video compositing (a.k.a. non-linear editing), video processing, and creation of custom effects. See the gallery for some examples of use.</td></td>
     <td class="tg-yw4l"><a href="https://pypi.org/project/moviepy/">
      <p>PyPI</p>
     </a></td>
