@@ -1,5 +1,5 @@
 # videoConverter
-This tool installs YouTube videos and converts those videos into mp3 audio.
+This is a tool(GUI) installs YouTube videos, and this script(Ipynb) installs YouTube videos and converts those videos into mp3 audio.
 
 ## Packages
 <table class="tg">
