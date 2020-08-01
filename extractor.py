@@ -1,6 +1,5 @@
 try:
     # checking if the modules are installed
-    from moviepy.editor import *
     from pytube import *    
     from tkinter import  *
     import os
