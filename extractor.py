@@ -4,11 +4,12 @@ try: # checking if the modules are installed
     import os 
     
 except Exception as e: # printing a message if there is an issue with the packages!
-    print('Modules are Missing! \n\n {}'.format(e))
+    print('Packages are Missing! \n\n {}'.format(e))
 
 app = Tk() # making the canvas
-app.geometry('600x200') # sizing the canvas
+app.iconphoto(FALSE, PhotoImage(file='./images/Youtube-icon.png'))
 app.title('Youtube Video Downloader') # making the title
+app.geometry('600x200') # sizing the canvas
 
 # making labels and it's place
 label_1 = Label(app,text="Enter YouTube Link!", font=("bold",20))
@@ -27,7 +28,6 @@ link_bar.place(x=120, y=80)
 def downloadVideo():
     link = str(myLink.get())
     video = YouTube(link).streams.filter(progressive=True, file_extension='mp4').order_by('resolution').desc().first()
-
     # checking if the folder is exists or make one!
     if not os.path.exists('./videos/'):
         os.makedirs('./videos/')
